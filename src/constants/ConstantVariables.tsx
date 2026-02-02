@@ -1,6 +1,7 @@
 
 import MovieFind from "../assets/images/projects/project-1.png";
 import ShoeShop from "../assets/images/projects/project-2.png";
+import Portfolio from "../assets/images/projects/project-3.png";
 export const Projects = [
     {
         ProjectImage: MovieFind,
@@ -24,6 +25,18 @@ export const Projects = [
         ],
         liveDemoLink: "https://shoeshopapp.vercel.app/",
         githubLink: "https://github.com/Developer-Jayvee/ShoeShop"
+    },
+    {
+        ProjectImage: Portfolio,
+        title: "Personal Portfolio Website",
+        description: "A personal portfolio website to showcase my projects, skills, and experience as a Full Stack Web Developer.",
+        techStack: [
+            { title: "React", icon: "devicon-react-original colored" },
+             { title: "TypeScript", icon: "devicon-typescript-plain colored" },
+            { title: "CSS", icon: "devicon-css3-plain" }
+        ],
+        liveDemoLink: "https://jayveeportfolio.vercel.app/",
+        githubLink: "https://github.com/Developer-Jayvee/Jayvee-Portfolio"
     }
 ];
 
