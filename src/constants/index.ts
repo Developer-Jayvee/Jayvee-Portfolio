@@ -51,6 +51,14 @@ export const PROJECTS = [
             }
         },
         {
+            title:"Youtube Clone",
+            description:"HTML & CSS basic cloning",
+            link:{
+                description:"HC-youtube_clone",
+                link:"https://jayveehidlao11.github.io/HC-youtube_clone/"
+            }
+        },
+        {
             title:"Sari-Sari Store Inventory",
             description:"Inventory Tracker using Excel",
             link:{
