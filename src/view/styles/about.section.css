@@ -1,0 +1,10 @@
+
+
+
+.aboutDescription{
+    text-align:justify;
+    /* font-size: 12px; */
+    font-size: clamp(6px , 5vw , 12px);
+    font-weight: var(--fextraLight);
+}
+

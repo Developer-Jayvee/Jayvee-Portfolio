@@ -1,0 +1,19 @@
+.experience-info{
+    margin:10px 0;
+}
+.experience-info > p{
+    padding: 0;
+    margin: 0;
+    margin-bottom: 2px;
+}
+.experience-info > :nth-child(1),
+.experience-info > :nth-child(2)
+{
+    font-weight: var(--fsemibold);
+    /* font-size: 14px; */
+    font-size: clamp(7px, 6vw , 14px);
+}
+.experience-info > :nth-child(3){
+    /* font-size: 12px; */
+     font-size: clamp(6px, 5vw , 12px);
+}

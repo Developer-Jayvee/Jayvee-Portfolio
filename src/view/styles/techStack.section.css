@@ -1,0 +1,11 @@
+.stack-list {
+    display: flex;
+    gap:10px;
+    flex-wrap: wrap;
+}
+@media screen and (max-width:450px) {
+    .stack-list{
+        width: 100%;
+        justify-content: center;
+    }
+}

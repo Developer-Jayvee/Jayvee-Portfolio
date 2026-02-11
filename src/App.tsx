@@ -1,20 +1,42 @@
-import Navigation from "./view/Navigation";
-import Sections from "./view/Sections";
+import { Copyright } from "iconoir-react"
 import "./App.css"
-import "./assets/styles/utilities.css"
+import AboutSection from "./view/AboutSection"
+import ExperienceSection from "./view/ExperienceSection"
+import HomeSection from "./view/HomeSection"
+import RecentProjectSection from "./view/RecentProjectSection"
+import TechStackSection from "./view/TechStackSection"
 export default function App() {
- 
+
   return (
     <>
-      <header>
-        <nav>
-          <Navigation />
-        </nav>
-      </header>
       <main>
-          <Sections />
+        <section>
+          <HomeSection />
+          <hr />
+        </section>
+        <section>
+          <AboutSection />
+          <hr />
+        </section>
+        <section>
+          <ExperienceSection />
+          <hr />
+        </section>
+           <section>
+          <RecentProjectSection />
+          <hr />
+        </section>
+       <section>
+          <TechStackSection />
+        </section> 
       </main>
-      <footer> </footer>
+      <footer>
+        <hr/>
+        <p>
+          <Copyright />
+          Jayvee Hidlao. All rights reserved.
+        </p>
+      </footer>
     </>
   )
 }

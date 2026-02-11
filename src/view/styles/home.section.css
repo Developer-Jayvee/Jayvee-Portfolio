@@ -1,0 +1,59 @@
+
+.image-holder{
+    width: 100%;
+    height: 100%;
+    box-shadow: 0 0 4px rgba(0,0,0,.5);
+    background-color: transparent;
+    border-radius: 5px;
+    overflow: hidden;
+}
+.image-holder img{
+    object-fit: cover;
+}
+.basic-info > p{
+    padding:5px 0;
+    margin: 0;
+}
+.basic-info > :nth-child(1){
+    /* font-size:28px; */
+    font-size: clamp(15px , 5vw , 28px);
+    font-family: "Inter", sans-serif;
+    font-weight: 600;
+}
+.basic-info > :nth-child(2){
+    /* font-size: 15px; */
+    font-size: clamp(10px , 5vw , 15px);
+    font-family: var(--primaryFontFamily);
+}
+.basic-info > :nth-child(2) svg{
+    /* font-size: 10px; */
+    font-size: clamp(10px , 5vw , 10px);
+    vertical-align: middle;
+}
+.basic-info > :nth-child(3){
+    /* font-size: 15.5px; */
+    font-size: clamp(10px , 5vw , 15.5px);
+    font-family: var(--primaryFontFamily);
+    font-weight: 200;
+}
+.basic-info > :nth-child(4) a
+{
+    font-size: 1.2rem;
+    margin:0 5px;
+}
+
+@media screen and (max-width:450px) {
+    .wrapper-grid-col-2{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .left-grid{
+        width: 100px;
+        height: 100px;
+    }
+    .basic-info{
+        text-align: center;
+    }
+}
