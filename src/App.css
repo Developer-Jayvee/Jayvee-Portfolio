@@ -41,7 +41,7 @@ hr{
 .grid-col-2
 {
     display: grid;
-    width: 500px;
+    width: 700px;
 }
 .wrapper-grid-col-2{
     grid-template-columns: 140px 1fr;
